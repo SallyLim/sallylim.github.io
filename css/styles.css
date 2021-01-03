@@ -1,0 +1,40 @@
+body{
+    margin:0;
+}
+
+.header{
+    overflow: auto;
+    background-color:rgb(193, 236, 222);
+    padding: 20px;
+}
+
+.header a{
+    float: left;
+    color: black;
+    font: 20px system-ui;
+    padding: 5px;
+}
+
+.header a:hover{
+    background-color:darksalmon;
+    border-radius: 4px;
+}
+
+.header a.active{
+    background-color: darksalmon;
+}
+
+.header-contact{
+    float: right;
+}
+
+.center-wholeline{
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    width:30px;
+}
