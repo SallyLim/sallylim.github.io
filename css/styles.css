@@ -5,7 +5,8 @@ body{
 .header{
     overflow: auto;
     background-color:rgb(193, 236, 222);
-    padding: 20px;
+    padding: 18px;
+    margin:0;
 }
 
 .header a{
@@ -30,11 +31,42 @@ body{
 
 .center-wholeline{
     display: block;
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    width: 40%;
 }
 
 .logo{
     width:30px;
+}
+
+.resume-section-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.paragraph-words{
+    font: 30px system-ui;
+    margin: 2px;
+}
+
+.small-words{
+    display: inline;
+    font: 20px system-ui;
+    margin: 3px;
+}
+
+.emphasized-words{
+    display: inline;
+    font: 70px system-ui bold;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.landing-page-emphasis{
+    text-align: center;
+    padding:0;
+}
+
+#about{
+    background-color: rgba(168, 194, 243, 0.521);
 }
