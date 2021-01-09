@@ -11,15 +11,16 @@ body{
     align-items: center;
     padding-left: 15px;
     padding-right: 10px;
-    padding-top:5px;
+    padding-top:20px;
+    padding-bottom: 20px;
 }
 
 .header a{
     float: left;
     color: black;
-    font-size: 18px;
+    font-size: 25px;
     font-family: "Flamenco";
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .header a:hover{
@@ -42,23 +43,23 @@ body{
 .pic{
     display: block;
     margin: auto;
-    width: 20%;
+    width: 300px;
     padding-top:15px;
     background: #ffffff;
     border-radius: 50%;
 }
 
 .home-logo{
-    width:40px;
-    height: 40px;
+    width:55px;
+    height: 55px;
     padding-top:3px;
     background: #ffffff;
     border-radius: 50%;
 }
 
 .logo{
-    width:30px;
-    height:30px;
+    width:35px;
+    height:35px;
 }
 
 .resume-section-content{
@@ -67,7 +68,7 @@ body{
 }
 
 .i-love-to-code{
-    font-size: 20px;
+    font-size: 30px;
     font-family: "Flamenco";
     text-align: center;
     margin:0;
@@ -75,13 +76,13 @@ body{
 
 .hi{
     display: inline;
-    font-size: 35px;
+    font-size: 50px;
     font-family: "Bad Script";
 }
 
 .im{
     display: inline;
-    font-size: 30px;
+    font-size: 40px;
     font-family: "Bad Script"; 
 }
 
@@ -93,7 +94,7 @@ body{
 .emphasized-words{
     display: inline;
     font-family: "Bad Script";
-    font-size: 50px;
+    font-size: 115px;
     text-transform: uppercase;
     margin:0;
 }
