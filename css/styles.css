@@ -6,29 +6,33 @@ body{
 
 .header{
     overflow: auto;
+    display: flex;
     background-color:rgb(193, 236, 222);
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top:5px;
 }
 
 .header a{
     float: left;
     color: black;
-    font-size: 20px;
+    font-size: 18px;
     font-family: "Flamenco";
-    padding-top: 5px;
-    padding-bottom: 5px;
+    margin-left: 10px;
 }
 
 .header a:hover{
-    background-color:darksalmon;
+    background-color:rgba(122, 133, 233, 0.705);
     border-radius: 4px;
 }
 
 .header a.active{
-    background-color: darksalmon;
+    background-color:rgba(122, 133, 233, 0.705);
 }
 
 .header-contact{
-    float: right;
+    margin-left: auto
 }
 
 .landing-page{
@@ -39,7 +43,7 @@ body{
     display: block;
     margin: auto;
     width: 20%;
-    padding:20px;
+    padding-top:15px;
     background: #ffffff;
     border-radius: 50%;
 }
@@ -47,14 +51,14 @@ body{
 .home-logo{
     width:40px;
     height: 40px;
-    padding:3px;
+    padding-top:3px;
     background: #ffffff;
     border-radius: 50%;
 }
 
 .logo{
-    width:40px;
-    height:40px;
+    width:30px;
+    height:30px;
 }
 
 .resume-section-content{
@@ -63,7 +67,7 @@ body{
 }
 
 .i-love-to-code{
-    font-size: 22px;
+    font-size: 20px;
     font-family: "Flamenco";
     text-align: center;
     margin:0;
@@ -71,20 +75,15 @@ body{
 
 .hi{
     display: inline;
-    font-size: 40px;
+    font-size: 35px;
     font-family: "Bad Script";
 }
 
 .im{
     display: inline;
-    font-size: 35px;
+    font-size: 30px;
     font-family: "Bad Script"; 
 }
-
-.i-love-to-code{
-
-}
-
 
 .body-words{
     font: 20px system-ui;
@@ -94,7 +93,7 @@ body{
 .emphasized-words{
     display: inline;
     font-family: "Bad Script";
-    font-size: 60px;
+    font-size: 50px;
     text-transform: uppercase;
     margin:0;
 }
@@ -102,4 +101,5 @@ body{
 .landing-page-emphasis{
     text-align: center;
     margin:0;
+    padding:0;
 }
