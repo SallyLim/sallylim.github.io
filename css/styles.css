@@ -1,19 +1,21 @@
 body{
     margin:0;
+    background-color: rgba(193, 236, 222, 0.555);
+
 }
 
 .header{
     overflow: auto;
     background-color:rgb(193, 236, 222);
-    padding: 18px;
-    margin:0;
 }
 
 .header a{
     float: left;
     color: black;
-    font: 20px system-ui;
-    padding: 5px;
+    font-size: 20px;
+    font-family: "Flamenco";
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .header a:hover{
@@ -29,14 +31,30 @@ body{
     float: right;
 }
 
-.center-wholeline{
+.landing-page{
+    padding: 10px;
+}
+
+.pic{
     display: block;
     margin: auto;
-    width: 40%;
+    width: 20%;
+    padding:20px;
+    background: #ffffff;
+    border-radius: 50%;
+}
+
+.home-logo{
+    width:40px;
+    height: 40px;
+    padding:3px;
+    background: #ffffff;
+    border-radius: 50%;
 }
 
 .logo{
-    width:30px;
+    width:40px;
+    height:40px;
 }
 
 .resume-section-content{
@@ -44,29 +62,44 @@ body{
     margin-right: 10px;
 }
 
-.paragraph-words{
-    font: 30px system-ui;
-    margin: 2px;
+.i-love-to-code{
+    font-size: 22px;
+    font-family: "Flamenco";
+    text-align: center;
+    margin:0;
 }
 
-.small-words{
+.hi{
     display: inline;
+    font-size: 40px;
+    font-family: "Bad Script";
+}
+
+.im{
+    display: inline;
+    font-size: 35px;
+    font-family: "Bad Script"; 
+}
+
+.i-love-to-code{
+
+}
+
+
+.body-words{
     font: 20px system-ui;
     margin: 3px;
 }
 
 .emphasized-words{
     display: inline;
-    font: 70px system-ui bold;
+    font-family: "Bad Script";
+    font-size: 60px;
     text-transform: uppercase;
-    margin: 10px;
+    margin:0;
 }
 
 .landing-page-emphasis{
     text-align: center;
-    padding:0;
-}
-
-#about{
-    background-color: rgba(168, 194, 243, 0.521);
+    margin:0;
 }
