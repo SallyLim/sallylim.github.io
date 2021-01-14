@@ -86,12 +86,6 @@ body{
     font-family: "Bad Script"; 
 }
 
-.table-skills{
-    text-align: left;
-    font-size: 20px;
-    font-family: "Raleway";
-}
-
 .emphasized-words{
     display: inline;
     font-family: "Bad Script";
@@ -114,23 +108,82 @@ body{
     font-family: "Flamenco";
     font-size: 40px;
     padding: 15px;
-    margin-top: 5%;
+    margin-top: 3%;
+    margin-left: 1%;
 }
 
 .subheading{
     font-family: "Flamenco";
     font-size: 25px;
     padding-left: 40px;
-}
-
-.inside-table{
-    vertical-align: top;
-    padding:0;
-    margin:0;
+    margin-top: 5%;
+    margin-bottom: 3%;
 }
 
 .body-words{
     font-size: 20px;
     font-family: "Raleway";
     margin: 15px;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table-skills{
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: "Raleway";
+    margin-bottom: 3%;
+}
+
+td{
+    padding:15px;
+}
+
+.star{
+    color:rgb(223, 196, 47);
+}
+
+.project-img{
+    width:350px;
+}
+
+.project-showcase{
+    margin-left:20%;
+}
+
+.project-table{
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: "Raleway";
+    margin-bottom: 3%;
+    background-color:rgba(95, 158, 160, 0.582);
+}
+
+.project-description{
+    font-family: "Raleway";
+    font-size: 15px;
+    width:90%;
+}
+
+.language{
+    display:inline;
+    font-family: "Bad Script";
+    font-size:18px;
+    text-align: right;
+    margin-left:30%;
+}
+
+.project-title{
+    display:inline;
+    font-family: "Flamenco";
+    font-size: 25px;
+    padding-left: 40px;
+    margin-top: 5%;
+    margin-bottom: 3%;
 }
