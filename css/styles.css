@@ -217,3 +217,33 @@ td{
     height:60px;
 }
 
+.contact-me{
+    background-color: rgba(95, 158, 160, 0.664);
+    padding-bottom: 10%;
+    margin-top: 5%;
+}
+
+form{
+    padding-top: 15px;
+    padding-left: 35%;
+    padding-right: 35%;
+}
+
+input{
+    width:100%;
+}
+
+textarea{
+    width:100%;
+}
+
+.email{
+    display: block;
+    font-size: 20px;
+    font-family: "Raleway";
+    text-align: center;
+    background-color: rgba(95, 158, 160, 0.582);
+    padding-bottom: 100px;
+    padding-top: 30px;
+    margin:0;
+}
