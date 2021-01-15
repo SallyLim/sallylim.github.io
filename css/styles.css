@@ -151,8 +151,15 @@ td{
     width:350px;
 }
 
+.project-img-tall{
+    height:230px;
+}
+
 .project-showcase{
     margin-left:20%;
+    align-items: center;
+    text-align: center;
+    border
 }
 
 .project-table{
@@ -167,22 +174,46 @@ td{
 
 .project-description{
     font-family: "Raleway";
-    font-size: 15px;
-    width:90%;
+    font-weight: 100;
+    font-size: 17px;
+    width:100%;
 }
 
 .language{
-    display:inline;
     font-family: "Bad Script";
     font-size:18px;
     text-align: right;
-    margin-left:30%;
+    margin-left:40%;
 }
 
 .project-title{
-    display:inline;
     font-family: "Flamenco";
     font-size: 30px;
     margin-top: 5%;
     margin-bottom: 3%;
+    text-align: left;
 }
+
+.demo-link{
+    background-color: black;
+    color:white;
+    padding:10px;
+    margin-right: 20px;
+    border-radius: 4px;
+}
+
+.demo-link:hover{
+    background-color: #ffffff;
+    color: black;
+}
+
+.project-links{
+    display: flex;
+    align-items: center;
+}
+
+.logo-large{
+    width: 60px;
+    height:60px;
+}
+
