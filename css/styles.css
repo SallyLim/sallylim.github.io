@@ -247,3 +247,27 @@ textarea{
     padding-top: 30px;
     margin:0;
 }
+
+.grid-container{
+    display: inline-grid;
+    column-gap: 2%;
+    row-gap: 2%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.design{
+    display: flex;
+    max-width: 70%;
+    background-color: beige;
+    padding:5px;
+    margin: auto;
+}
+
+.design-description{
+    font-size: 20px;
+    font-family: "Bad Script";
+    text-align: center;
+}
