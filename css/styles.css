@@ -1,3 +1,7 @@
+*{
+    max-width: 100%;
+}
+
 body{
     margin:0;
     background-color: rgba(193, 236, 222, 0.555);
@@ -269,4 +273,53 @@ textarea{
     font-size: 20px;
     font-family: "Bad Script";
     text-align: center;
+}
+
+
+/* Fixes for responsive website below*/
+
+.header_small{
+    display:none;
+}
+
+#menu-toggler{
+    width:35px;
+    height:35px;
+    float:right;
+    padding:10px;
+}
+
+.mobile-menu{
+    list-style-type:none;
+    margin:0;
+    padding: 0;
+}
+
+.mobile-menu li a{
+    color:black;
+    font-family: "Flamenco";
+    font-size: 20px;
+    display: block;
+    padding:5px;
+    text-align: center;
+}
+
+.mobile-menu li a:hover{
+    background-color: rgba(122, 133, 233, 0.705);
+}
+
+.mobile_logo{
+    width:15px;
+    height:15px;
+}
+
+@media only screen and (max-width: 600px){
+    .header{
+        display: none;
+    }
+
+    .header_small{
+        display:block;
+        background-color:rgb(193, 236, 222);
+    }
 }
