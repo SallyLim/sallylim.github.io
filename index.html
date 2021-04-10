@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Bad Script|Flamenco|Raleway:wght@100&display=swap'>  </head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="./js/script.js"></script>
   <body>
     <div class="header">
       <a href="https://sallylim.github.io/#home">
@@ -106,7 +106,7 @@
         <table class="table-skills">
           <tr>
             <td>Java</td> <td class="star">&#9733 &#9733 &#9733 &#9733 &#9734</td>
-            <td>Procreate</td> <td class="star">&#9733 &#9733 &#9733 &#9733 &#9734</td>
+            <td>Procreate</td> <td class="star">&#9733 &#9733 &#9733 &#9733 &#9733</td>
             <td>Git & GitHub</td> <td class="star">&#9733 &#9733 &#9733 &#9733 &#9734</td>
           </tr>
           <tr>
@@ -126,8 +126,12 @@
           </tr>
           <tr>
             <td>R</td> <td class="star">&#9733 &#9733 &#9733 &#9733 &#9733</td>
-            <td>Dart</td> <td class="star">&#9733 &#9733 &#9734 &#9734 &#9734</td>
-            <td>Blender</td> <td class="star">&#9733 &#9733 &#9734 &#9734 &#9734</td>
+            <td>jQuery</td> <td class="star">&#9733 &#9733 &#9734 &#9734 &#9734</td>
+            <td>JavaScript</td> <td class="star">&#9733 &#9733 &#9734 &#9734 &#9734</td>
+          </tr>
+          <tr>
+            <td>Squarespace</td> <td class="star">&#9733 &#9733 &#9733 &#9733 &#9733</td>
+            <td>JUnit</td> <td class="star">&#9733 &#9733 &#9733 &#9733 &#9733</td>
           </tr>
         </table>
       </div>
@@ -136,16 +140,41 @@
 
     <section class="resume-section" id="projects">
       <h1 class="subject">Projects</h1>
-      <table class="project-table">
-        <tr>
-          <td class="project-showcase">
+      <table>
+        <tr class="project-table">
+          <td class="project-img">
+            <img 
+            src="images/Hope_Icon.png"
+            alt="Hope Mobile Game"
+            />
+          </td>
+          <td class="project-intro">
+            <h2 class="project-title">Hope Mobile Game</h2>
+            <h2 class="language">Procreate, Unity</h2>
+            <h3 class="project-description">
+              <li>The mobile game, ‘Hope’ portrays the life of a girl who is going through depression, difficulties are solved through mini-games, while her daily life is being portrayed through animations and comic strips.</li>
+              <li>I created all of the art assets needed for the game for UofTHacks VIII.</li>
+              <li>I also led the overarching game flow, story, and design.</li>
+            </h3>
+            <div class='project-links'>
+              <a class='demo-link' href="https://github.com/SallyLim/Hope/releases/download/v1.0/hope.apk">Demo</a>
+              <a href="https://github.com/SallyLim/Hope" target="_blank">
+                <img
+                src="images/GitHub-Mark-64px.png"
+                alt="GitHub Repository"
+                class="logo">
+              </a>
+            </div>
+          </td>
+        </tr>
+        <tr class="project-table">
+          <td class="project-img">
             <img 
             src="images/recipe companion website.PNG"
             alt="Recipe Companion Website"
-            class="project-img"
             />
           </td>
-          <td>
+          <td  class="project-intro">
             <h2 class="project-title">Recipe Companion Website</h2>
             <h2 class="language">React</h2>
             <h3 class="project-description">
@@ -164,15 +193,14 @@
             </div>
           </td>
         </tr>
-        <tr>
-          <td class="project-showcase">
+        <tr class="project-table">
+          <td class="project-img">
             <img 
             src="images/susmerchwebsite.png"
             alt="SUS merch website"
-            class="project-img"
             />
           </td>
-          <td>
+          <td  class="project-intro">
             <h2 class="project-title">UBC Science Undergraduate Society Merchandise Website</h2>
             <h2 class="language">Squarespace</h2>
             <h3 class="project-description">
@@ -184,15 +212,14 @@
             </div>
           </td>
         </tr>
-        <tr>
-          <td class="project-showcase">
+        <tr class="project-table">
+          <td class="project-img">
             <img 
             src="images/personalwebsite.png"
             alt="Personal Website"
-            class="project-img"
             />
           </td>
-          <td>
+          <td class="project-intro">
             <h2 class="project-title">Personal Website</h2>
             <h2 class="language">HTML, CSS</h2>
             <h3 class="project-description">
@@ -210,15 +237,14 @@
             </div>
           </td>
         </tr>
-        <tr>
-          <td class="project-showcase">
+        <tr class="project-table">
+          <td class="project-img">
             <img 
             src="images/ARshirttryonapp.jpeg"
             alt="AR Virtual Wardrobe"
-            class="project-img-tall"
             />
           </td>
-          <td>
+          <td class="project-intro">
             <h2 class="project-title">AR Virtual Wardrobe</h2>
             <h2 class="language">Blender, ARKit, Unity</h2>
             <h3 class="project-description">
@@ -237,20 +263,14 @@
             </div>
           </td>
         </tr>
-        <tr>
-          <td class="project-showcase">
+        <tr class="project-table">
+          <td class="project-img">
             <img 
             src="images/planme.png"
             alt="PlanMe"
-            class="project-img-tall"
-            />
-            <img 
-            src="images/planme2.png"
-            alt="PlanMe"
-            class="project-img-tall"
             />
           </td>
-          <td>
+          <td class="project-intro">
             <h2 class="project-title">
               <img 
               src="images/planmelogo.png"
@@ -270,15 +290,14 @@
             </div>
           </td>
         </tr>
-        <tr>
-          <td class="project-showcase">
+        <tr class="project-table">
+          <td class="project-img">
             <img 
             src="images/htmlcreator.PNG"
             alt="HTML Creator"
-            class="project-img"
             />
           </td>
-          <td>
+          <td class="project-intro">
             <h2 class="project-title">HTML Creator</h2>
             <h2 class="language">Java, HTML</h2>
             <h3 class="project-description">
@@ -310,8 +329,36 @@
         </figure>
         <figure class="grid-item">
           <img
+          src="images/Portrait-rimlight.png"
+          alt="Portrait Drawing"
+          class="design">
+          <figcaption class="design-description">Portrait digital art</figcaption>
+        </figure>
+        <figure class="grid-item">
+          <img
+          src="images/Portrait-watercolor.png"
+          alt="Portrait Drawing"
+          class="design">
+          <figcaption class="design-description">Portrait digital art</figcaption>
+        </figure>
+        <figure class="grid-item">
+          <img
+          src="images/Portrait-devil.png"
+          alt="Portrait Drawing"
+          class="design">
+          <figcaption class="design-description">Portrait digital art</figcaption>
+        </figure>
+        <figure class="grid-item">
+          <img
             src="images/me.png"
             alt="Me"
+            class="design">
+          <figcaption class="design-description">Cartoon portrait</figcaption>
+        </figure>
+        <figure class="grid-item">
+          <img
+            src="images/char.png"
+            alt="Character design"
             class="design">
           <figcaption class="design-description">Cartoon portrait</figcaption>
         </figure>
@@ -324,17 +371,17 @@
         </figure>
         <figure class="grid-item">
           <img
-            src="images/char.png"
-            alt="Character design"
-            class="design">
-          <figcaption class="design-description">Cartoon portrait</figcaption>
-        </figure>
-        <figure class="grid-item">
-          <img
             src="images/cat-game-char.png"
             alt="Cat game character"
             class="design">
           <figcaption class="design-description">Cat 2-D game character</figcaption>
+        </figure>
+        <figure class="grid-item">
+          <img
+            src="images/planmelogo.png"
+            alt="Plan me logo"
+            class="design">
+          <figcaption class="design-description">Plan Me logo</figcaption>
         </figure>
         <figure class="grid-item">
           <img
@@ -348,16 +395,89 @@
             src="images/wis.png"
             alt="Women in Science Shirt Design"
             class="design">
-          <figcaption class="design-description">Women in Science crewneck design. Purchase at 
+          <figcaption class="design-description">Women in Science crewneck design. </br>
+            Purchase at 
             <a href="https://www.ubcsussales.com" target="_blank">ubcsussales.com</a>
           </figcaption>
         </figure>
         <figure class="grid-item">
           <img
-            src="images/planmelogo.png"
-            alt="Plan me logo"
+            src="images/Animal_stickers.png"
+            alt="Endangered Animal Stickers"
             class="design">
-          <figcaption class="design-description">Plan Me logo</figcaption>
+          <figcaption class="design-description">Endangered Animal Stickers. </br>
+            Purchase at 
+            <a href="https://www.ubcsussales.com" target="_blank">ubcsussales.com</a></figcaption>
+        </figure>
+        <figure class="grid-item">
+          <img
+            src="images/Launch1_IGgraphics.png"
+            alt="Launch One IG Graphics"
+            class="design">
+          <figcaption class="design-description">Faculty Sale I Launch Instagram Graphics</figcaption>
+        </figure>
+        <figure class="grid-item">
+          <img
+            src="images/Launch1_FBgraphics.png"
+            alt="Launch One FB Graphics"
+            class="design">
+          <figcaption class="design-description">Faculty Sale I Launch Facebook Graphics</figcaption>
+        </figure>
+        <figure class="grid-item">
+          <img
+            src="images/Launch2_IGgraphics.png"
+            alt="Launch Two IG Graphics"
+            class="design">
+          <figcaption class="design-description">Faculty Sale II Launch Instagram Graphics</figcaption>
+        </figure>
+        <figure class="grid-item">
+          <img
+            src="images/Launch2_FBgraphics.png"
+            alt="Launch Two FB Graphics"
+            class="design">
+          <figcaption class="design-description">Faculty Sale II Launch Facebook Graphics</figcaption>
+        </figure>
+        <figure class="grid-item">
+          <img
+            src="images/Hope_Icon.png"
+            alt="Hope Icon"
+            class="design">
+          <figcaption class="design-description"><i>Hope</i> Game Icon</figcaption>
+        </figure>
+        <figure class="grid-item">
+          <img
+            src="images/Hope_cutscene_bathroom.png"
+            alt="Hope Morning Cutscene"
+            class="design">
+          <figcaption class="design-description"><i>Hope</i> Morning Cutscene</figcaption>
+        </figure>
+        <figure class="grid-item">
+          <img
+            src="images/Hope_Cutscene_wakeup.png"
+            alt="Hope Waking Up Cutscene"
+            class="design">
+          <figcaption class="design-description"><i>Hope</i> Waking Up Cutscene</figcaption>
+        </figure>
+        <figure class="grid-item">
+          <img
+            src="images/Hope_cutscene_headingout.png"
+            alt="Hope Heading Out Cutscene"
+            class="design">
+          <figcaption class="design-description"><i>Hope</i> Heading Out Cutscene</figcaption>
+        </figure>
+        <figure class="grid-item">
+          <img
+            src="images/Hope_cutscene_isolation.png"
+            alt="Hope Isolation Cutscene"
+            class="design">
+          <figcaption class="design-description"><i>Hope</i> Isolation Cutscene</figcaption>
+        </figure>
+        <figure class="grid-item">
+          <img
+            src="images/Hope_inbed.png"
+            alt="Hope In Bed Cutscene"
+            class="design">
+          <figcaption class="design-description"><i>Hope</i> In Bed Cutscene</figcaption>
         </figure>
       </div>
     </section>
